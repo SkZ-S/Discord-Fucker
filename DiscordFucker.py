@@ -34,7 +34,7 @@ except:
 from discord.ext import commands
 
 
-embed=discord.Embed(title="DiscordFucker !", url="https://github.com/Isko-o", description="Voici la liste des commandes disponibles : ", color=0x000000)
+embed=discord.Embed(title="DiscordFucker !", url="https://github.com/SkZ-S", description="Voici la liste des commandes disponibles : ", color=0x000000)
 embed.add_field(name="!help", value="afficher la liste des commandes disponibles", inline=False)
 embed.add_field(name="!nuke", value="niquer le serveur totalement (sans ban)", inline=False)
 embed.add_field(name="!mininuke", value="niquer le serveur (sans créer de rôles)", inline=False)
@@ -57,7 +57,7 @@ embed.add_field(name="!link", value="recevoir un lien permettant d'apprendre à 
 embed.add_field(name="**+**", value="pour augmenter le nombre de messages envoyés, envoyer [!spam] plusieurs fois", inline=False)
 embed.set_footer(text="Nuke! | >''SkZ™#9999")
 
-link = "https://github.com/Isko-o"
+link = "https://github.com/SkZ-S"
 
 token = input("[+] Token du bot > ")
 
